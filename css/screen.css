@@ -1,0 +1,42 @@
+.container
+{
+    
+    width:940px;
+    margin-left: auto;
+    margin-right:auto;
+    position: absolute;
+    left:15%;
+    top:130px;
+}
+.content-area
+{
+    border-top: 3px solid red;
+    border-bottom: 3px solid #0AACBE;
+}
+
+.sidebar
+{
+    width: 33%;
+    float: left;
+}
+.mainfirst
+{
+    width: 34%;
+    float: left;
+}
+.mainsecond
+{
+    width: 33%;
+    float: left;
+}
+.group:before,
+.group:after{
+    content: "";
+    display: table;
+}
+.group:after{
+    clear: both;
+}
+.group{
+    zoom:   1;
+}
