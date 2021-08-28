@@ -4,84 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sign in</title>
-    <style>
-        body
-{
-    background-image: url(https://img.powerpoint.com.vn/uploads/2019/06/09/hinh-nen-powerpoint-vu-tru-mau-sac_092723116.jpg);
-    background-size: cover;
-    background-repeat: none;
-}
-h1
-{
-    font-size:50px;
-    position: absolute;
-    left:40%;
-    color:#C4E91E;
-}
-table{
-          border: 3px solid greenyellow;
-          padding: 5px;
-          position: absolute;
-          left:20%;
-          top:20%;
-        }
-        table {
-          border-spacing: 15px;
-        }
-td
-{
-    border: 2px solid greenyellow;
-    width:500px;
-}
-.td2
-{
-    border:none;
-    width:10000px;
-}
-.td3
-{
-    border: none;
-    position: relative;
-    left: 6%;
- 
-}
-a
-{
-    color:white;
-    font-size: 20px;
-    text-decoration: none;
-}
-.td0
-{
-    border:none;
-}
-    </style>
+    <link rel="stylesheet" href="css/screen.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Article</title>
 </head>
 <body>
-    <h1>RUSASHOP</h1>
-    <form>
-    <table style="width:20%">
-            <tr>
-                    <th class="th0" style="font-size:30px; position:relative; left:40%; text-decoration:underline;">Sign in</th>
-                     <td class="td0"style="position:absolute; left:76%;"><button type="submit" class="btn btn-primary" style="height:30%;background-color:white;"><a href="vs2.html" style="color:#74FA74">Sign up</a></button></td>
-                      </tr>
-    <tr>
-        <th>Email:</th>
-         <td><input class="ten" type="text" style="width:500px;"></td>
-          </tr>
-       
-        <tr>
-                <th>Password:</th>
-                 <td><input class="ten" type="text" style="width:500px;"></td>
-         </tr>
-        <tr> <td class="td2"><div style="width:150px; position:relative; left:20%;">
-                <label><input type="checkbox">Remember me</label>
-            </div></td></tr>
-            <td class="td3"><button type="submit" class="btn btn-primary" style="height:30%;background-color:#74FA74;"><a href="vs5.html">Login</a></button></td>
-      
-    </table>
-    </form>
+        <div class="sidenav">
 
+                
+                <button class="dropdown-btn">Nguồn báo
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-container">
+                        <a href="https://vietdesigner.net/2012/05/de-tro-thanh-designer-gioi/" target="_self">Link 1</a>
+                        <a href="https://tuyensinhso.vn/nhom-nganh-dao-tao/nganh-thiet-ke-do-hoa-c16682.html" target="_self">Link 2</a>
+                        <a href="https://timviec365.vn/blog/coder-la-gi-new4977.html" target="_self">Link 3</a>
+                      </div>
+                      <button class="dropdown-btn">Trợ giúp
+                            <i class="fa fa-caret-down"></i>
+                          </button>
+                          <div class="dropdown-container">
+                            <a href="https://www.w3schools.com/default.asp" target="_self" >w3school</a>
+                            <a href="http://laptrinhphothong.vn/Account/LogIn" target="_self">Lập trình pt</a>
+                            <a href="https://tmath.vn/" target="_self">Tmath</a>
+                          </div>
+                          <a href="https://nhathuoc365.vn/diabetna-pd37" target="_blank">
+                          <img src="./image/4073545529151470310.png" alt="anh"></a>
+              </div>
+              <script>
+                    var dropdown = document.getElementsByClassName("dropdown-btn");
+                    var i;
+                    
+                    for (i = 0; i < dropdown.length; i++) {
+                      dropdown[i].addEventListener("click", function() {
+                      this.classList.toggle("active");
+                      var dropdownContent = this.nextElementSibling;
+                      if (dropdownContent.style.display === "block") {
+                      dropdownContent.style.display = "none";
+                      } else {
+                      dropdownContent.style.display = "block";
+                      }
+                      });
+                    }
+                    </script>
+                                  
+    <div class="container2">
+        <header>
+      <h1><strong><i>What is design?</i></strong></h1>
+    </header>
+    <div class="content-area2 group">
+        <div class="main-area">
+            <br>
+            <img src="./image/Good-Designer-VietDesigner.net_3.jpg" alt="anh" style="width:100%;">
+        <div class="mainfirst">
+            <br>
+                <img src="./image/thiet-ke-do-hoa-2-1.jpg" alt="anh"  style="width:90%;">
+        </div>
+        
+        <div class="mainsecond">
+            <br>
+                <p>Cho đến nay vẫn chưa có định nghĩa chính xác và đầy đủ về nghề thiết kế (TK) đồ họa – công việc được dân trong ngành gọi vui là nghề của “Picasso” trong lĩnh vực số. Có thể tạm hiểu TK đồ họa là việc sử dụng máy tính để TK những sản phẩm (SP) liên quan đến đồ họa, hình ảnh, mỹ thuật, phim ảnh…</p>
+                <p>Ngành TK đồ họa có ứng dụng rất rộng rãi. Do đó, nhà TK rất dễ dàng tìm công cụ, phần mềm khác nhau để hoàn thành công việc của mình. Những người sử dụng các công cụ số hóa để viết, TK SP trên máy tính được gọi là chuyên gia TK đồ họa (designer). Designer hoạt động khá đa dạng: TK logo, quảng cáo, tạo mẫu bìa tạp chí, web, làm kỹ xảo điện ảnh, phục hồi ảnh cũ…</p>
+                        
+                      </div>
+        </div>
+
+        <a type="button" data-toggle="collapse" data-target="#demo" style="color:#09FF09;">xem tiếp</a>
+        <div id="demo" class="collapse" style="color:palegreen;">
+                Họ sử dụng rất phong phú chất liệu, từ tranh ảnh, hoạt hình, video, âm nhạc, các hiệu ứng âm thanh, hình ảnh… Các SP do đó cũng rất đa dạng: clip, website, mẫu bìa tạp chí, áp phích, đoạn trailer (video clip quảng cáo)…
+                <div class="mainsecond2">
+                        <br>
+                            <img src="https://cdn.brvn.vn/users/1280px/2018/37342_Nguyen-Thi-Tra-My_1541491419.jpg" alt="anh"  style="width:80%;">
+                    </div>
+                    
+                    <div class="mainfirst2">
+                        <br>
+                            <p>“Tôi có thời gian và kinh nghiệm làm việc với nhiều chuyên viên TK đồ họa. Nhiều bạn rất khá nhưng cái tôi lại quá lớn. Điều mà các doanh nghiệp như chúng tôi cần là những SP phù hợp với yêu cầu, văn hóa của công ty, cũng thu hút thị hiếu của khách hàng. Nhiều bạn lại để cái tôi hay cái gu thẩm mỹ của mình vào SP mà không để ý đến việc mình đang TK cho ai, cho đối tượng nào. Để thành công trong môi trường doanh nghiệp, tôi cho rằng các bạn nên biết dung hòa giữa tác phẩm nghệ thuật và yêu cầu thực tế của khách hàng”, bà Nguyễn Trà My – phụ trách truyền thông và thương hiệu của website loveme.vn nói.</p>
+                                    <br>
+                                  </div>
+                
+        </div>
+        
+    </div>
+    </div>
+    <footer>
+        <p>&copy; 2021- this is footer.</p>
+    </footer>
 </body>
 </html>

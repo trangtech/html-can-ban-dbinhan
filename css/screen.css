@@ -1,33 +1,59 @@
-.container
+.container2
 {
     
     width:940px;
-    margin-left: auto;
+    margin-left: 22%;
     margin-right:auto;
-    position: absolute;
-    left:15%;
-    top:130px;
 }
-.content-area
+body{
+    background-image: url(https://images.unsplash.com/photo-1570284613060-766c33850e00?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFyayUyMGJsdWV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p
 {
-    border-top: 3px solid red;
-    border-bottom: 3px solid #0AACBE;
+    color:palegreen;
 }
 
-.sidebar
+footer
 {
-    width: 33%;
-    float: left;
+    margin-left: 50%;
 }
+.content-area2
+{
+    border-top: 3px solid rgba(149, 255, 0, 0.62);
+    border-bottom: 3px solid rgba(149, 255, 0, 0.62);
+}
+i
+{
+    color:#09FF09;
+}
+h1
+{
+    text-align: center;
+}
+
 .mainfirst
 {
-    width: 34%;
+    width: 50%;
     float: left;
 }
 .mainsecond
 {
-    width: 33%;
+    width: 50%;
     float: left;
+}
+.mainfirst2
+{
+    width: 50%;
+    float: left;
+}
+.mainsecond2
+{
+    width: 50%;
+    float:right;
+    text-align: right;
 }
 .group:before,
 .group:after{
@@ -40,3 +66,64 @@
 .group{
     zoom:   1;
 }
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image:url(https://png.pngtree.com/thumb_back/fh260/background/20210120/pngtree-green-gradient-round-abstract-geometric-background-image_535471.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 200px; 
+    font-size: 20px; 
+    padding: 0px 10px;
+  }
+  
+
+  .active {
+    background-color: #56FCC4;
+    color: white;
+  }
+  
+  .dropdown-container {
+    display: none;
+    background-color: greenyellow;
+    padding-left: 8px;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+  
+  /* Some media queries for responsiveness */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
