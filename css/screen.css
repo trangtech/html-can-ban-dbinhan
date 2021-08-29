@@ -127,3 +127,32 @@ h1
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+  .site-nav {
+    margin-top: 20px;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+}
+
+.site-nav a {
+    display: block;
+    color: #56FCC4;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid rgba(149, 255, 0, 0.62);
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.site-nav a:hover {
+    background-color: #09FF09;
+    text-decoration: none;
+}
